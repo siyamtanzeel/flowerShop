@@ -58,6 +58,8 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+
 /* featured section styles */
 .featured{
     width: 1150px;
@@ -105,6 +107,8 @@ main{
     background: #feffca;
 }
 
+
+/* services section style */
 .services{
     margin: 2rem 0;
     display: flex;
@@ -128,7 +132,9 @@ main{
     font-size: 1rem;
 }
 
-/* Deals Style */
+
+
+/* Deals section Style */
 
 .deals{
     display: flex;
@@ -149,4 +155,28 @@ main{
 }
 .deal-contents{
     width: 380px;
+}
+
+
+/* Instagram section style */
+.instagram{
+    padding: 5rem 0;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instagram p{
+    width: 480px;
+    text-align: center;
+}
+.instagram img{
+    width: 200px;
+}
+.instagram-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
 }
