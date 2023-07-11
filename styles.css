@@ -181,3 +181,36 @@ main{
     align-items: center;
     column-gap: 1rem;
 }
+
+
+/* review section styles */
+.reviews{
+    width: 1150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5rem;
+}
+.review-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    width: 760px;
+}
+.review{
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+.review h3{
+    color: rgb(255, 43, 114);
+}
+.review img{
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
