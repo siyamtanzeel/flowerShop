@@ -111,7 +111,7 @@ main{
     column-gap: 3rem;
     background: #ebebeb;
     border-radius: 10px;
-    padding: 5rem;
+    padding: 2rem 5rem;
 }
 .service{
     display: flex;
