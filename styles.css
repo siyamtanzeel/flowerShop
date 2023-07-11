@@ -69,10 +69,10 @@ main{
 
 /* featured section styles */
 .featured{
-    width: 1150px;
+    width: 950px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: stretch;
     align-items: center;
     margin: 5rem 0;
 }
@@ -83,8 +83,8 @@ main{
 .featured-flowers{
     display: flex;
     justify-content: space-between;
+    width: 100%;
     align-items:center;
-    column-gap: 1rem;
     margin: 2rem 0 4rem 0;
 }
 .flower{
@@ -101,9 +101,9 @@ main{
     line-height: 1.2;
 }
 .flower img{
-    padding: 3rem 2rem 0 2rem;
+    padding: 3rem 3rem 0 3rem;
     border-radius: 160px 160px 0 0;
-    width: 240px;
+    width: 300px;
 }
 #pink img{
     background: rgb(255, 215, 229);
@@ -121,10 +121,12 @@ main{
     margin: 2rem 0;
     display: flex;
     flex-direction: row;
-    column-gap: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
     background: #ebebeb;
     border-radius: 10px;
     padding: 2rem 5rem;
+    width: 950px;
 }
 .service{
     display: flex;
@@ -169,10 +171,10 @@ main{
 /* Instagram section style */
 .instagram{
     padding: 5rem 0;
-    width: 1150px;
+    width: 950px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: stretch;
     align-items: center;
 }
 .instagram p{
@@ -180,20 +182,20 @@ main{
     text-align: center;
 }
 .instagram img{
-    width: 200px;
+    width: 230px;
 }
 .instagram-images{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 1rem;
 }
 
 
 /* review section styles */
 .reviews{
     position: relative;
-    width: 1050px;
+    width: 950px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -225,7 +227,7 @@ main{
 
 /* Subscription section styles */
 .subscription{
-    width: 1150px;
+    width: 950px;
     margin: 5rem 0;
     text-align: center;
     background: url("img/Rectangle%209.png");
