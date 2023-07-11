@@ -232,6 +232,7 @@ main{
     text-align: center;
     background: url("img/Rectangle%209.png");
     background-size: cover;
+    border-radius: 5px;
     padding: 5rem;
 }
 .subscription input{
