@@ -10,13 +10,20 @@ a{
     text-decoration: none;
 }
 h2{
-    color: rgb(14, 14, 14);
+    color: rgb(41, 41, 41);
 }
 p{
     color: #919191;
     font-size: small;
     margin: 1rem 0;
     line-height: 1.5;
+}
+.btn-primary {
+    color: white;
+    background: rgb(255, 43, 114);
+    border-radius: 5px;
+    padding: 0.7rem 1.2rem;
+    border: none;
 }
 /* header styles */
 header{
@@ -26,15 +33,11 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-.header-content{
-    width: 450px;
-}
 header h1{
-    color: rgb(14, 14, 14);
+    color: rgb(41, 41, 41);
     font-size: 3rem;
     margin: 1.6rem 0;
 }
-
 header img{
     width: 400px;
 }
@@ -42,13 +45,11 @@ header a{
     color: white;
     font-weight: 300;
 }
-header button{
-    color: white;
-    background: rgb(255, 43, 114);
-    border-radius: 5px;
-    padding: 0.7rem 1.2rem;
-    border: none;
+.header-content{
+    width: 450px;
 }
+
+
 /* Main Section Style */
 main{
     margin: 4rem 0;
@@ -59,7 +60,7 @@ main{
 }
 /* featured section styles */
 .featured{
-    width: 1250px;
+    width: 1150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,4 +126,27 @@ main{
 .service p{
     color: rgb(68, 68, 68);
     font-size: 1rem;
+}
+
+/* Deals Style */
+
+.deals{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    column-gap: 5rem;
+    background: #ffedf5;
+    width:100%;
+    padding: 2rem 0;
+
+}
+.deals span{
+    color: rgb(255, 43, 114);
+}
+.deals img{
+    width: 240px;
+}
+.deal-contents{
+    width: 380px;
 }
